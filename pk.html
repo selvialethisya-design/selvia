@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - Romeo & Juliet</title>
+    <link rel="stylesheet" href="kp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Great+Vibes&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero scroll-snap-section" id="hero">
+        <div class="hero-content">
+            <h2 class="fade-in">The Wedding of</h2>
+            <h1 class="zoom-in">Romeo & Juliet</h1>
+            <p class="fade-in">20 . 12 . 2026</p>
+            <button id="btnOpen">Buka Undangan</button>
+        </div>
+    </section>
+
+    <div id="mainContent" class="hidden">
+
+        <section class="details scroll-snap-section">
+            <div class="container">
+                <h2>Save the Date</h2>
+                <p>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan putra-putri kami:</p>
+                
+                <h3>Romeo Syahputra & Juliet Putri</h3>
+
+                <div class="event-grid">
+                    <div class="card">
+                        <h3>Akad Nikah</h3>
+                        <p>Sabtu, 20 Desember 2026</p>
+                        <p>Pukul 09.00 WIB</p>
+                        <p>Masjid Agung Kota</p>
+                        <a href="#" class="btn-map" target="_blank">Lihat Peta</a>
+                    </div>
+                    <div class="card">
+                        <h3>Resepsi</h3>
+                        <p>Sabtu, 20 Desember 2026</p>
+                        <p>Pukul 11.00 - Selesai</p>
+                        <p>Gedung Serbaguna Cantika</p>
+                        <a href="#" class="btn-map" target="_blank">Lihat Peta</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="countdown-section scroll-snap-section">
+            <div class="container">
+                <h2>Menghitung Hari Menuju Kebahagiaan</h2>
+                <div id="countdown">
+                    <div class="time-box">
+                        <span id="days">00</span>
+                        <p>Hari</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="hours">00</span>
+                        <p>Jam</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="minutes">00</span>
+                        <p>Menit</p>
+                    </div>
+                    <div class="time-box">
+                        <span id="seconds">00</span>
+                        <p>Detik</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery scroll-snap-section">
+            <div class="container">
+                <h2>Galeri Momen Spesial</h2>
+                <div class="image-grid">
+                    <img src="https://images.unsplash.com/photo-1594953934571-081682894175?auto=format&fit=crop&q=80&w=600" alt="Prewedding 1">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=600" alt="Prewedding 2">
+                    <img src="https://images.unsplash.com/photo-1549079965-f53e6b77259f?auto=format&fit=crop&q=80&w=600" alt="Prewedding 3">
+                    <img src="https://images.unsplash.com/photo-1542042162584-38b4f1f2e77b?auto=format&fit=crop&q=80&w=600" alt="Prewedding 4">
+                </div>
+            </div>
+        </section>
+
+        <section class="wishes scroll-snap-section">
+            <div class="container">
+                <h2>Pesan & Doa Untuk Kami</h2>
+                <form id="wishForm">
+                    <input type="text" id="guestName" placeholder="Nama Anda" required>
+                    <textarea id="guestWish" placeholder="Tulis pesan dan doa terbaik Anda..." rows="5" required></textarea>
+                    <button type="submit">Kirim Ucapan</button>
+                </form>
+                <div id="wishList">
+                    </div>
+            </div>
+        </section>
+
+        <section class="closing scroll-snap-section">
+            <div class="container">
+                <h2>Terima Kasih</h2>
+                <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+                <p>Kami yang berbahagia,</p>
+                <h3>Romeo & Juliet</h3>
+            </div>
+        </section>
+
+    </div> <script src="kp.js"></script>
+</body>
+</html>
